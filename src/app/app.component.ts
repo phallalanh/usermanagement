@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthServiceComponent } from './service/auth-service/auth-service.component';
+import { AuthServiceComponent } from './core/service/auth-service.component';
 import { Router } from '@angular/router';
 import { LocalizedString } from '@angular/compiler';
 

@@ -20,28 +20,28 @@ import { ConfirmDialogModule } from 'primeng/confirmdialog';
 
 // Components
 import { AppComponent } from './app.component';
-import { LoginComponent } from './authentication/login/login.component';
-import { RegisterComponent } from './authentication/register/register.component';
-import { UserListComponent } from './component/user/user-list/user-list.component';
-import { UserFormComponent } from './component/user/user-form/user-form.component';
-import { RoleListComponent } from './component/role/role-list/role-list.component';
-import { RoleFormComponent } from './component/role/role-form/role-form.component';
-import { UserDetailComponent } from './component/user/user-detail/user-detail.component';
-import { RoleDetailComponent } from './component/role/role-detail/role-detail.component';
-import { DepartmentListComponent } from './component/department/department-list/department-list.component';
-import { DepartmentFormComponent } from './component/department/department-form/department-form.component';
-import { DepartmentDetailComponent } from './component/department/department-detail/department-detail.component';
-import { ForgotPasswordComponent } from './authentication/forgot-password/forgot-password.component';
-import { AuthServiceComponent } from './service/auth-service/auth-service.component';
-import { MessageComponent } from './component/message/message.component';
-import { NotfoundComponent } from './component/notfound/notfound.component';
-import { ListComponent } from './component/main/component/list/list.component';
-import { DashboardComponent } from './component/dashboard/dashboard.component';
-import { CardComponent } from './component/card/card.component';
+import { LoginComponent } from './features/login/login.component';
+import { RegisterComponent } from './features/register/register.component';
+import { UserListComponent } from './features/user/user-list/user-list.component';
+import { UserFormComponent } from './features/user/user-form/user-form.component';
+import { RoleListComponent } from './features/role/role-list/role-list.component';
+import { UserDetailComponent } from './features/user/user-detail/user-detail.component';
+import { RoleDetailComponent } from './features/role/role-detail/role-detail.component';
+import { DepartmentListComponent } from './features/department/department-list/department-list.component';
+import { DepartmentFormComponent } from './features/department/department-form/department-form.component';
+import { DepartmentDetailComponent } from './features/department/department-detail/department-detail.component';
+import { AuthServiceComponent } from './core/service/auth-service.component';
+import { MessageComponent } from './shared/message/message.component';
+import { NotfoundComponent } from './shared/notfound/notfound.component';
+import { ListComponent } from './shared/component/list/list.component';
+import { DashboardComponent } from './features/dashboard/dashboard.component';
 
 // Services
 import { ConfirmationService, MessageService } from 'primeng/api';
-import { CustomMessageService } from './service/messageService/customMessage.service';
+import { CustomMessageService } from './core/service/customMessage.service';
+import { RoleFormComponent } from './features/role/role-form/role-form.component';
+import { CardComponent } from './shared/card/card.component';
+import { ForgotPasswordComponent } from './features/reset-password/forgot-password.component';
 
 
 @NgModule({
